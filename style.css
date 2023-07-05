@@ -6,6 +6,9 @@
 
 } */
 
+*{
+    margin: 0;
+}
 .main {
     display: flex;
 }
@@ -13,6 +16,14 @@
 .img1 {
     height: 630px;
     width: 550px;
+}
+
+.img2 {
+    top: -50%;
+    height: 200px;
+    width: 200px;
+    background-image: url(img/imgodin.jpg);
+    background-size: 150px;
 }
 
 .right {
@@ -35,3 +46,23 @@
     border: red solid 2px;
     display: flex;
 }
+label {
+    position: relative;
+    width: 15rem;
+    margin-bottom: 15px;
+  }
+  input {
+    font-family: customFontBold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 224, 224);
+    font-size: .9rem;
+    margin-top: 3px;
+  }
+  form {
+    display: flex;
+    width: 60vw;
+    flex-flow: row wrap;
+    gap: 1rem;
+    font-size: 1rem;
+  }  
