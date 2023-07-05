@@ -1,0 +1,37 @@
+/* .para{
+    text-align: left;
+    font-size: 25px;
+    justify-content: left;
+
+
+} */
+
+.main {
+    display: flex;
+}
+
+.img1 {
+    height: 630px;
+    width: 550px;
+}
+
+.right {
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+.para {
+    font-size: 25px;
+    
+}
+
+.para2{
+    font-size: 25px;
+    font-family:'Lucida Sans';
+}
+
+.container{
+    border: red solid 2px;
+    display: flex;
+}
