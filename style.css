@@ -19,11 +19,35 @@
 }
 
 .img2 {
-    top: -50%;
-    height: 200px;
-    width: 200px;
-    background-image: url(img/imgodin.jpg);
-    background-size: 150px;
+    top: 100px;
+    left: 60px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    /* border: 20px solid red; */
+    
+   
+}
+.logotext1{
+  position: absolute;
+  top: 120px;
+  left: 200px;
+  font-size: 70px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgba(0, 0, 0, 0.411);
+}
+
+.imgposition{
+    top: 10%;
+    left: 5%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.397);
+   height: 200px;
+   box-sizing: border-box;
+}
+
+.left{
+    
 }
 
 .right {
