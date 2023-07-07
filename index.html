@@ -34,45 +34,51 @@
 
             <p class="para2"><em> you know you want to. </em></p>
 
-
             <div class="container">
                 <form>
                     <h1 class="head"> Let's do this!</h1>
                     <div class="content">
-                        <div class="flname">
-                           fitstname
-                            <input type="text" name="" id="">
+                        <div class="nameContent">
+                            <div class="inputContent">
+                                <p class="fname">FIRST NAME</p>
+                                <input type="text" required>
+                            </div>
+
+                            <div class="inputContent">
+                                <p class="lname"> LAST NAME </p>
+                                <input type="text" required class="lname">
+                            </div>
                         </div>
 
-                            <p class="lname"> LAST NAME </p>
-                            <input type="text" required class="lname">
+                        <div class="nameContent">
+                            <div class="inputContent">
+                                <p class="email"> EMAIL</p>
+                                <input type="email" required>
+                            </div>
+                            <div class="inputContent">
+                                <p class="pnum"> PHONE NUMBER </p>
+                                <input type="number" minlength="10" required class="pnum">
+                            </div>
+                        </div>
 
-                       
-                       
-
-                        <p class="email"> EMAIL</p>
-                        <input type="email" required>
-
-                        <p class="pnum"> PHONE NUMBER </p>
-                        <input type="number" minlength="10" required class="pnum">
-
-                        <p class="pword"> PASSWORD</p>
-                        <input type="password" required />
-
-                        <p class="cpword">CONFIRMPASSWORD</p>
-                        <input type="password" required class="cpword">
-                      
-
+                        <div class="nameContent">
+                            <div class="inputContent">
+                                <p class="pword"> PASSWORD</p>
+                                <input type="password" required />
+                            </div>
+                            <div class="inputContent">
+                                <p class="cpword">CONFIRMPASSWORD</p>
+                                <input type="password" required class="cpword">
+                            </div>
+                        </div>
                     </div>
-
                 </form>
-
             </div>
-
             <button> Create Account</button>
             <p> Already have an account? <a href="#"> Log in </a></p>
         </div>
     </div>
+
 </body>
 
 </html>
