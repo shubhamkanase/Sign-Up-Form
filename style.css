@@ -24,10 +24,11 @@
 .logotext1{
   position: absolute;
   top: 120px;
-  left: 200px;
+  left: 160px;
   font-size: 70px;
   font-family: 'Courier New', Courier, monospace;
   background-color: rgba(0, 0, 0, 0.411);
+  color: aliceblue;
 }
 
 .imgposition{
@@ -36,7 +37,6 @@
     position: absolute;
     background-color: rgba(0, 0, 0, 0.397);
    height: 200px;
-   box-sizing: border-box;
 }
 
 .left{
@@ -58,13 +58,20 @@
     font-size: 25px;
     font-family:'Lucida Sans';
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .head{
-    margin-top: 30px;
     font-size: 25px;
 }
 
+.container{
+    border: 2px solid rgb(231, 231, 231);
+    padding: 10px 90px 10px 40px;
+    /* padding-top: -80px; */
+    margin: 0px -90px 10px -40px;
+    background-color: rgb(231, 231, 231);
+}
 
 .nameContent{
     display: flex;
@@ -79,7 +86,13 @@
 
 
 button{
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 4px;
     margin-top: 20px;
+    padding: 10px;
+    color: black;
+    background-color: rgb(25, 207, 25);
 }
 
 
