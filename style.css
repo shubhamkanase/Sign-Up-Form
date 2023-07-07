@@ -1,10 +1,4 @@
-/* .para{
-    text-align: left;
-    font-size: 25px;
-    justify-content: left;
 
-
-} */
 
 *{
     margin: 0;
@@ -63,13 +57,61 @@
 .para2{
     font-size: 25px;
     font-family:'Lucida Sans';
+    margin-top: 20px;
 }
 
+.head{
+    margin-top: 30px;
+    font-size: 25px;
+}
+/* 
+.fname{
+    margin-top: 18px;
+    
+}
+
+.lname{
+    margin-left: 230px;
+    margin-top: -39px;
+}
+
+.email{
+    margin-top: 25px;
+}
+
+.pnum{
+    margin-left: 230px;
+    margin-top: -39px;
+}
+
+.pword{
+    margin-top: 25px;
+}
+
+.cpword{
+    margin-left: 230px;
+    margin-top: -39px;
+} */
+
+
+
+button{
+    margin-top: 20px;
+}
+
+.flname{
+  display:flex;
+ 
+
+}
+
+
+/* 
 .container{
     border: red solid 2px;
     display: flex;
-}
-label {
+} */
+/* label {
     position: relative;
     width: 15rem;
     margin-bottom: 15px;
@@ -88,4 +130,6 @@ label {
     flex-flow: row wrap;
     gap: 1rem;
     font-size: 1rem;
-  }  
+  }   */
+
+  
