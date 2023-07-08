@@ -39,9 +39,6 @@
    height: 200px;
 }
 
-.left{
-    
-}
 
 .right {
     margin: 20px;
@@ -68,22 +65,18 @@
 .container{
     border: 2px solid rgb(231, 231, 231);
     padding: 10px 90px 10px 40px;
-    /* padding-top: -80px; */
     margin: 0px -90px 10px -40px;
     background-color: rgb(231, 231, 231);
 }
 
 .nameContent{
-    display: flex;
-    
-    
+    display: flex;     
 }
+
 .inputContent{
    margin-top: 20px;
     margin-right: 100px;
 }
-
-
 
 button{
     font-size: 15px;
