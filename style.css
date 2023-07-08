@@ -81,11 +81,30 @@
 button{
     font-size: 15px;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 8px;
     margin-top: 20px;
     padding: 10px;
     color: black;
     background-color: rgb(25, 207, 25);
 }
 
+.allpara{
+font-size: 20px;
+    margin-top: 20px;
+}
 
+.secondhtml{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 250px;
+    color: green;
+
+}
+
+.secondpara{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 10px;
+
+}

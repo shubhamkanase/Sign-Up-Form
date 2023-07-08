@@ -7,27 +7,30 @@ const cpword = document.querySelector("#cpword");
 
 submit.addEventListener('submit', (event)=> {
     event.preventDefault();
-    if(pword.value != cpword.value){
+    if(pword.value !== cpword.value){
         cpword.setCustomValidity("Passwords Don't Match");
         cpword.reportValidity();
-        cpword.style.borderColor="red";  
+        cpword.style.borderColor="red";
         alert("password not match")
         
-
-        // window.location.href="/second.html"
     }
     else{
         cpword.setCustomValidity(""); // Reset custom validity message
         cpword.style.borderColor = ""; 
         cpword.reportValidity(); // Update the validity state
+        alert("Succefully Submitted")
+        window.location.href = "/second.html";
         
-        if (cpword.checkValidity()) {
-            alert("Successfully registered");
-            window.location.href = "/second.html";
-        // alert("succefully nregister")
-        }
     }
 })
 
-// pword.onchange = validatePassword;
-// cpword.onkeyup = validatePassword;
+
+cpword.addEventListener('input', () => {
+    if (pword.value === cpword.value) {
+        cpword.setCustomValidity("");
+        cpword.style.borderColor = "green";
+    } else {
+        cpword.setCustomValidity("Passwords don't match");
+        cpword.style.borderColor = "red";
+    }
+});
